@@ -1,5 +1,6 @@
 package chainingAPI;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.ITestContext;
 import com.github.javafaker.Faker;
 
@@ -14,15 +15,17 @@ public class UpdateUser {
 		Faker fk = new Faker();
 
 		JSONObject data = new JSONObject();
-
+		
 		data.put("name", fk.name().fullName());
-		data.put("gender", "male");
+		data.put("gender", "female");
 		data.put("email",fk.internet().emailAddress());
 		data.put("status", "active");
 
-		String BearerToken = "622f6702ba7bd871b66390b7f91d41cfc3fe714250565d5308bffb46155cbeba";
-
-		int id = (Integer) context.getAttribute("user_id"); 		// Gets id value from CREATEUSER
+//		String BearerToken = (String) context.getAttribute("BearerToken");
+//		int id = (Integer) context.getAttribute("user_id"); 		// Gets id value from CREATEUSER
+		
+		String BearerToken = (String) context.getSuite().getAttribute("BearerToken");
+		int id = (Integer) context.getSuite().getAttribute("user_id");
 		
 		given()
 			.headers("Authorization", "Bearer "+ BearerToken)

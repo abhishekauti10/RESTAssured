@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-04T13:05:19 IST" name="Suite" finished-at="2024-11-04T13:05:23 IST" duration-ms="3417">
+  <suite started-at="2024-11-04T13:38:41 IST" name="Suite" finished-at="2024-11-04T13:38:44 IST" duration-ms="3066">
     <groups>
     </groups>
-    <test started-at="2024-11-04T13:05:19 IST" name="Test" finished-at="2024-11-04T13:05:23 IST" duration-ms="3417">
+    <test started-at="2024-11-04T13:38:41 IST" name="Test" finished-at="2024-11-04T13:38:44 IST" duration-ms="3066">
       <class name="chainingAPI.GetUser">
-        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:chainingAPI.GetUser@1623b78d]" started-at="2024-11-04T13:05:22 IST" name="getUser" finished-at="2024-11-04T13:05:22 IST" duration-ms="253" status="PASS">
+        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:chainingAPI.GetUser@1623b78d]" started-at="2024-11-04T13:38:43 IST" name="getUser" finished-at="2024-11-04T13:38:44 IST" duration-ms="418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,7 +20,7 @@
         </test-method> <!-- getUser -->
       </class> <!-- chainingAPI.GetUser -->
       <class name="chainingAPI.UpdateUser">
-        <test-method signature="updateUser(org.testng.ITestContext)[pri:0, instance:chainingAPI.UpdateUser@c8c12ac]" started-at="2024-11-04T13:05:22 IST" name="updateUser" finished-at="2024-11-04T13:05:23 IST" duration-ms="463" status="PASS">
+        <test-method signature="updateUser(org.testng.ITestContext)[pri:0, instance:chainingAPI.UpdateUser@c8c12ac]" started-at="2024-11-04T13:38:44 IST" name="updateUser" finished-at="2024-11-04T13:38:44 IST" duration-ms="284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
         </test-method> <!-- updateUser -->
       </class> <!-- chainingAPI.UpdateUser -->
       <class name="chainingAPI.DeleteUser">
-        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:chainingAPI.DeleteUser@6adbc9d]" started-at="2024-11-04T13:05:23 IST" name="deleteUser" finished-at="2024-11-04T13:05:23 IST" duration-ms="267" status="PASS">
+        <test-method signature="deleteUser(org.testng.ITestContext)[pri:0, instance:chainingAPI.DeleteUser@6adbc9d]" started-at="2024-11-04T13:38:44 IST" name="deleteUser" finished-at="2024-11-04T13:38:44 IST" duration-ms="238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
         </test-method> <!-- deleteUser -->
       </class> <!-- chainingAPI.DeleteUser -->
       <class name="chainingAPI.CreateUser">
-        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:chainingAPI.CreateUser@131774fe]" started-at="2024-11-04T13:05:19 IST" name="createUser" finished-at="2024-11-04T13:05:22 IST" duration-ms="2380" status="PASS">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:chainingAPI.CreateUser@131774fe]" started-at="2024-11-04T13:38:41 IST" name="createUser" finished-at="2024-11-04T13:38:43 IST" duration-ms="2081" status="PASS">
           <params>
             <param index="0">
               <value>

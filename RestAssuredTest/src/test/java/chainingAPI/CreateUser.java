@@ -1,5 +1,6 @@
 package chainingAPI;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.ITestContext;
 import static io.restassured.RestAssured.*;
 import com.github.javafaker.Faker;
@@ -33,7 +34,14 @@ public class CreateUser {
 		
 		System.out.println("Generated id = " + id);
 		
-		context.setAttribute("user_id", id);
+		// when working at test level
+//		context.setAttribute("user_id", id);
+//		context.setAttribute("BearerToken", BearerToken);
+		
+		
+		// when working at suite level
+		context.getSuite().setAttribute("user_id", id);
+		context.getSuite().setAttribute("BearerToken", BearerToken);
 		
 	}
 }
